@@ -1,0 +1,35 @@
+{
+  "name": "text-to-sql-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/eslint-parser": "^7.26.8",
+    "axios": "^1.8.2",
+    "core-js": "^3.41.0",
+    "eslint-webpack-plugin": "^5.0.0",
+    "joi": "^17.13.3",
+    "postcss": "^8.5.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.1",
+    "rollup": "^4.35.0",
+    "uuid": "^11.1.0",
+    "webpack": "^5.98.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

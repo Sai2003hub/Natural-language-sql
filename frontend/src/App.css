@@ -1,0 +1,93 @@
+/* App.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333;
+}
+
+.App {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #ff5f6d;
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #ff5f6d;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #ff5f6d, #ffc371);
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #ffc371, #ff5f6d);
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+pre {
+  background: #272822;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: left;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+th {
+  background: #ff5f6d;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #ffe5d9;
+}
+
+tr:nth-child(odd) {
+  background: #fff;
+}
