@@ -1,6 +1,6 @@
 import os
 
-GOOGLE_API_KEY = os.getenv("AIzaSyDT61Cz6jplIKqoaxomm-25Cc3iVmhg63g")
+GOOGLE_API_KEY = os.getenv("")
 
 DATABASE_CONFIG = {
     'host': 'localhost',
