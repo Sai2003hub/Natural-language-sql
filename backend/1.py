@@ -2,7 +2,7 @@ import google.generativeai as genai
 import os
 
 # Set the API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDT61Cz6jplIKqoaxomm-25Cc3iVmhg63g"
+os.environ["GOOGLE_API_KEY"] = ""
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 def get_gemini_response(question, prompt):
