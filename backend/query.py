@@ -10,7 +10,7 @@ from difflib import get_close_matches
 import traceback
 
 # Set API Key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDT61Cz6jplIKqoaxomm-25Cc3iVmhg63g"  # Add your API key here 
+os.environ["GOOGLE_API_KEY"] = ""  # Add your API key here 
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 def get_table_columns():
