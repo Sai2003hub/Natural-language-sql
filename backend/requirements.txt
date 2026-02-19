@@ -1,4 +1,6 @@
-fastapi
-uvicorn
-mysql-connector-python
-google-generativeai
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+mysql-connector-python==8.2.0
+cerebras-cloud-sdk==1.0.0
+sqlparse==0.4.4

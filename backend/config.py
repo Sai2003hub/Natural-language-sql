@@ -1,10 +1,10 @@
 import os
 
-GOOGLE_API_KEY = os.getenv("")
+CEREBRAS_API_KEY = "csk-thjnkvvhc6kkrfyr5thr8knftctktwnd4de86j5tdwfrxe4j"
 
 DATABASE_CONFIG = {
     'host': 'localhost',
     'user': 'root',
-    'password': 'Ystrangerthings1!',
+    'password': 'NewPassword123!',
     'database': 'company'
 }
