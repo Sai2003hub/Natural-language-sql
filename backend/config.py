@@ -1,10 +1,12 @@
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
-CEREBRAS_API_KEY = "csk-thjnkvvhc6kkrfyr5thr8knftctktwnd4de86j5tdwfrxe4j"
+CEREBRAS_API_KEY = os.getenv("CEREBRAS_API_KEY")
 
 DATABASE_CONFIG = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': 'NewPassword123!',
-    'database': 'company'
+    'host': os.getenv("DB_HOST"),
+    'user': os.getenv("DB_USER"),
+    'password': os.getenv("DB_PASSWORD"),
+    'database': os.getenv("DB_NAME")
 }

@@ -8,9 +8,11 @@ import sqlparse
 from difflib import get_close_matches
 import traceback
 from cerebras.cloud.sdk import Cerebras
+from dotenv import load_dotenv
+load_dotenv()
 
 # Set API Key
-os.environ["CEREBRAS_API_KEY"] = "csk-thjnkvvhc6kkrfyr5thr8knftctktwnd4de86j5tdwfrxe4j"
+os.environ["CEREBRAS_API_KEY"] = os.getenv("CEREBRAS_API_KEY")
 
 # ============================================================
 # SAFETY LAYER
@@ -500,7 +502,7 @@ def get_cerebras_response(question, table_schema):
         prompt = build_prompt(table_schema, question)  # Token Optimization: filters schema by query
 
         response = client.chat.completions.create(
-            model="llama3.3-70b",
+            model="llama3.1-8b",
             messages=[
                 {
                     "role": "system",
